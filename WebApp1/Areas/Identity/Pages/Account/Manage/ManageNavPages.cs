@@ -4,6 +4,7 @@
 
 using System;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using WebApp1.Areas.Identity.Data;
 
 namespace  WebApp1.Areas.Identity.Pages.Account.Manage
 {

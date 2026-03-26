@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mlnsib034\\workshop4_Inf3003W\\identity-mlnsib034-sudo\\WebApp1\\WebApp1.csproj": {}
+    "/Users/sibahlemalinga/workshop4_inf3003w/identity-mlnsib034-sudo/WebApp1/WebApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mlnsib034\\workshop4_Inf3003W\\identity-mlnsib034-sudo\\WebApp1\\WebApp1.csproj": {
+    "/Users/sibahlemalinga/workshop4_inf3003w/identity-mlnsib034-sudo/WebApp1/WebApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mlnsib034\\workshop4_Inf3003W\\identity-mlnsib034-sudo\\WebApp1\\WebApp1.csproj",
+        "projectUniqueName": "/Users/sibahlemalinga/workshop4_inf3003w/identity-mlnsib034-sudo/WebApp1/WebApp1.csproj",
         "projectName": "WebApp1",
-        "projectPath": "C:\\Users\\mlnsib034\\workshop4_Inf3003W\\identity-mlnsib034-sudo\\WebApp1\\WebApp1.csproj",
-        "packagesPath": "C:\\Users\\mlnsib034\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mlnsib034\\workshop4_Inf3003W\\identity-mlnsib034-sudo\\WebApp1\\obj\\",
+        "projectPath": "/Users/sibahlemalinga/workshop4_inf3003w/identity-mlnsib034-sudo/WebApp1/WebApp1.csproj",
+        "packagesPath": "/Users/sibahlemalinga/.nuget/packages/",
+        "outputPath": "/Users/sibahlemalinga/workshop4_inf3003w/identity-mlnsib034-sudo/WebApp1/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mlnsib034\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/sibahlemalinga/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,11 +58,13 @@
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[10.0.2, )"
+              "version": "[10.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.2, )"
+              "version": "[10.0.5, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -95,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
